@@ -1,0 +1,45 @@
+/* style.css */
+body{
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav: hover {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: red;
+}
+
+h1{
+  font-family: Century Gothic;
+  color: #D19CD2;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+#title{
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Century Gothic;
+  color: purple;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
