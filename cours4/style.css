@@ -9,7 +9,7 @@ body{
 nav{
   display:inline;
   font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Avenir Light', sans-serif;
 } 
 
 h1{
@@ -21,7 +21,7 @@ h1{
 
 h2 {
   font-family: 'Century Gothic', sans-serif;
-  color: #3b4563;
+  color: #474475;
   font-weight: lighter;
   font-size: 1.5em;
 }
@@ -32,22 +32,22 @@ p{
 }
 
 a { 
-  color: #FFFFFF;
+  color: #FCF7F8;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(225, 0, 152);
+  color: #474475;
 }
 
 nav li {
   margin: 10px;
-  display: inline;
+  display:inline;
 }
 
 nav ul {
   float: left;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 .red {
@@ -56,8 +56,8 @@ nav ul {
 }
 
 #logo{
-  color: rgb(225, 0, 152);
-  font-size: 35px;
+  color: #FCF7F8;
+  font-size: 45px;
   font-family: 'Pacifico', cursive;
   float: left;
   margin-left: 50px;
@@ -65,10 +65,13 @@ nav ul {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #255475;
+  background-color: #ABA9C3;
+  background-image: url(fond2.jpg);
+  background-attachment:fixed;
+  background-size: cover;
   text-align: center;
   background-size: cover;
-  padding: 150px;
+  padding: 160px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
@@ -93,7 +96,15 @@ nav ul {
   padding: 15px 0;
   text-align: center;
   width: 400px;
-  background: #FAFAFA;
+  background: #FCF7F8;
+}
+
+#defis {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #apropos {
@@ -105,10 +116,16 @@ nav ul {
 }
 
 #welcome{
-  background-color: #41A3C0;
+  background-color: #ABA9C3;
+  background-image: url(fond1.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
-  padding: 50px;
-  color: white;
+  padding: 140px;
+  color: #FCF7F8;
+  text-shadow: 1px 1px 5px black;
+  font-family: 'Roboto';
 }
 
 #welcome h4{
